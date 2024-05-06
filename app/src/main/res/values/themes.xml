@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CurrencyConverterApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorTertiary">@color/tertiary_color</item>
+
+        <!-- ActionBar styles -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarTheme">@style/MyActionBarTheme</item>
+    </style>
+
+    <style name="MyActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize ActionBar background color -->
+        <item name="android:background">@color/primary_color</item>
+    </style>
+
+    <style name="MyActionBarTheme" parent="ThemeOverlay.Material3.ActionBar">
+        <!-- Customize ActionBar text color, etc. -->
+        <item name="android:textColorPrimary">@color/primary_color</item>
+        <!-- Add more ActionBar customizations as needed -->
+    </style>
+
+    <style name="Theme.CurrencyConverterApp" parent="Base.Theme.CurrencyConverterApp" />
+
+
+    <style name="ScreenBackground"><item name="android:background">@color/white_background</item></style>
+    <style name="TextColor"><item name="android:textColor">@color/primary_color</item></style>
+    <style name="SecondaryTextColor"><item name="android:textColor">@color/secondary_color</item></style>
+    <style name="TertiaryTextColor"><item name="android:textColor">@color/tertiary_color</item></style>
+
+</resources>
